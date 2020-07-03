@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="e9eae7ee-bbb7-43ea-86ab-19dff65399c1" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:63535/Svrdatam.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="Svrdatam.xsd" MetadataType="Schema" ID="7122a18c-c5db-413a-9fe6-cfdd64a59de1" SourceId="1" SourceUrl="http://localhost:63535/Svrdatam.svc?xsd=xsd3" />
+    <MetadataFile FileName="Svrdatam1.xsd" MetadataType="Schema" ID="a2d8c9cb-b512-45b9-a2cf-2dccd5c27b65" SourceId="1" SourceUrl="http://localhost:63535/Svrdatam.svc?xsd=xsd1" />
+    <MetadataFile FileName="Svrdatam.disco" MetadataType="Disco" ID="4606a762-f978-407a-a517-92ed1853efb7" SourceId="1" SourceUrl="http://localhost:63535/Svrdatam.svc?disco" />
+    <MetadataFile FileName="Svrdatam2.xsd" MetadataType="Schema" ID="8165d109-389b-471d-a3f7-861db756956e" SourceId="1" SourceUrl="http://localhost:63535/Svrdatam.svc?xsd=xsd2" />
+    <MetadataFile FileName="Svrdatam3.xsd" MetadataType="Schema" ID="7b1dfd95-1db0-49e5-9e08-f8903d1889e3" SourceId="1" SourceUrl="http://localhost:63535/Svrdatam.svc?xsd=xsd0" />
+    <MetadataFile FileName="Svrdatam.wsdl" MetadataType="Wsdl" ID="1f9cbb93-26dd-4a08-a5a6-e2c00e9a4c9a" SourceId="1" SourceUrl="http://localhost:63535/Svrdatam.svc?wsdl" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

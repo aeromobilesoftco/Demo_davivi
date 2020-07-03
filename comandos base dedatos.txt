@@ -1,0 +1,76 @@
+CREATE TABLE usuario
+(
+	idusuario INT NOT NULL IDENTITY
+	, nombre VARCHAR(100)
+	, fecnac DATETIME 
+	, sexo VARCHAR(1)
+	, PRIMARY KEY(idusuario)
+)
+
+---------------- procedimeinto --------------------
+ALTER PROCEDURE PA_DEMUS(@opt INT, @idus INT, @nombus VARCHAR(100),@fecnac DATETIME, @sexo VARCHAR(1))
+AS
+BEGIN
+
+-- opciones
+-- opt=1 -> Seleccionar
+-- opt=2 -> insertar
+-- opt=3 -> Actualizar
+-- opt=4 -> eliminar
+
+IF(@opt=1)
+BEGIN 
+
+	SELECT 
+	     *
+	FROM 
+		usuario
+
+END 
+
+IF(@opt=2)
+BEGIN 
+
+	INSERT INTO usuario(nombre,fecnac,sexo)
+	VALUES (@nombus,@fecnac,@sexo)
+
+END
+
+IF(@opt=3)
+BEGIN 
+
+	
+	UPDATE
+		usuario
+	SET 
+		nombre=@nombus
+		, fecnac=@fecnac
+		, sexo=@sexo
+	WHERE 
+		idusuario=@idus
+
+END
+
+IF(@opt=4)
+BEGIN 
+
+	
+	DELETE FROM 
+		usuario
+	WHERE 
+		idusuario=@idus
+
+END
+
+IF(@opt=5)
+BEGIN 
+
+	SELECT 
+	     *
+	FROM 
+		usuario
+    WHERE 
+    	idusuario=@idus
+END 
+
+END 

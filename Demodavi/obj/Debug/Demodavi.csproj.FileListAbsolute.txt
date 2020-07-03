@@ -1,0 +1,6 @@
+D:\Desarrollos Leonardo\ASPX\WCF\Demodavi\bin\Demodavi.dll.config
+D:\Desarrollos Leonardo\ASPX\WCF\Demodavi\bin\Demodavi.dll
+D:\Desarrollos Leonardo\ASPX\WCF\Demodavi\bin\Demodavi.pdb
+D:\Desarrollos Leonardo\ASPX\WCF\Demodavi\obj\Debug\Demodavi.csprojAssemblyReference.cache
+D:\Desarrollos Leonardo\ASPX\WCF\Demodavi\obj\Debug\Demodavi.dll
+D:\Desarrollos Leonardo\ASPX\WCF\Demodavi\obj\Debug\Demodavi.pdb
